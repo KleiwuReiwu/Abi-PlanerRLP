@@ -42,12 +42,12 @@ public class Abitur {
     }
 
     public void fachInformation(String fachName){
-        System.out.println("MEOWOWOWOWWOWO");
+
         Fach x = new Fach();
 
         for(int i = 0; i < Faecher.size(); i++){
             x = Faecher.get(i);
-            System.out.println(i + ": " + x.getName());
+
             if(fachName.equals(x.getName())){
                 System.out.println("Fach wurde gefunden!");
                 System.out.println("Fach: " + x.getName());
