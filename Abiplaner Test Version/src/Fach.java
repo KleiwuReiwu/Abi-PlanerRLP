@@ -96,8 +96,9 @@ public class Fach {
 
                 if(halbjahr == 1) {
                     for (int i = 0; i < KlausurenHJ1.size(); i++) {
-
+                        x = KlausurenHJ1.get(i);
                         sum += x.getNotenpunkte();
+
 
                     }
                     durchschnittKlausur = sum / KlausurenHJ1.size();
@@ -123,6 +124,7 @@ public class Fach {
                         x = KlausurenHJ2.get(i);
                         sum += x.getNotenpunkte();
 
+
                     }
                     durchschnittKlausur = sum / KlausurenHJ2.size();
 
@@ -147,6 +149,7 @@ public class Fach {
                         x = KlausurenHJ3.get(i);
                         sum += x.getNotenpunkte();
 
+
                     }
                     durchschnittKlausur = sum / KlausurenHJ3.size();
 
@@ -170,6 +173,7 @@ public class Fach {
                     for (int i = 0; i < KlausurenHJ4.size(); i++) {
                         x = KlausurenHJ4.get(i);
                         sum += x.getNotenpunkte();
+
 
                     }
                     durchschnittKlausur = sum / KlausurenHJ4.size();

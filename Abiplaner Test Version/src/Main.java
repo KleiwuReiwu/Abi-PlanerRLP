@@ -9,8 +9,16 @@ public class Main {
 
 
       abitur.addFach("Mathe", true, 50, 50);
-      System.out.println(abitur.Faecher);
+      abitur.addGradeMuendlich("Mathe", 14, 1);
+      abitur.addGradeMuendlich("Mathe", 14, 1);
+      abitur.addGradeMuendlich("Mathe", 7, 1);
+      abitur.addGradeMuendlich("Mathe", 15, 1);
+
+      abitur.addGradeKlausur("Mathe", 11, 1);
+      abitur.addGradeKlausur("Mathe", 8, 1);
+
       abitur.fachInformation("Mathe");
+
 
 
 
